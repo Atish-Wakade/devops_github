@@ -1,9 +1,8 @@
----
 name: hello from the github action batch-20
-on: 
+on:
 workflow_dispatch: 
 jobs: 
 say_hello: 
-runs_on: ubuntu
+runs-on: ubuntu-latest
 steps:
-  - run:echo “hellow from github action workflow”
+  - run:echo “hellow from github action workflow”git 
