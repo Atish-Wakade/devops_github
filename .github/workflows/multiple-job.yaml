@@ -7,7 +7,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - run: echo "Hello from GitHub Actions Workflow MACOS"
-say_bye_ubuntu:
+  say_bye:
     runs-on: ubuntu-24.04
     steps:
       - run: echo "Hello from GitHub Actions Workflow ubuntu-latest"
