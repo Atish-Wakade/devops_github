@@ -1,5 +1,5 @@
 ---
-name: Hello from GitHub Actions MACOS
+name: Hello from GitHub Actions MACOS and ubuntu
 on:
   workflow_dispatch:
 jobs:
