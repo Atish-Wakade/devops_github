@@ -1,0 +1,19 @@
+---
+name: Hello from GitHub Actions MACOS and ubuntu
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say_hello:
+    runs-on: macos-latest
+
+    steps:
+      - run: echo "Hello from GitHub Actions Workflow MACOS"
+
+  say_bye:
+    needs: say_hello
+    runs-on: ubuntu-24.04
+
+    steps:
+      - run: echo "Hello from GitHub Actions Workflow ubuntu-latest"
