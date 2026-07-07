@@ -1,9 +1,9 @@
-name: hello from the github action batch-20
-on: 
-workflow_dispatch: 
-jobs: 
-say_hello: 
-runs-on: ubuntu-latest
-steps:
-  - name: Print Hello
-  run: echo “hellow from github action workflow” 
+---
+name: Hello from GitHub Actions Batch-20
+on:
+  workflow_dispatch:
+jobs:
+  say_hello:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "Hello from GitHub Actions Workflow"
