@@ -5,4 +5,4 @@ jobs:
 say_hello: 
 runs-on: ubuntu-latest
 steps:
-  - run:echo “hellow from github action workflow”git 
+  - run:echo “hellow from github action workflow”
